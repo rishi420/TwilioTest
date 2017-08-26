@@ -30,7 +30,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grB-kN-p4M">
-                                <rect key="frame" x="16" y="117" width="130" height="30"/>
+                                <rect key="frame" x="16" y="103" width="130" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Incoming Numbers"/>
                                 <connections>
@@ -38,7 +38,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kup-8F-mBc">
-                                <rect key="frame" x="16" y="175" width="101" height="30"/>
+                                <rect key="frame" x="16" y="141" width="101" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Send Message"/>
                                 <connections>
@@ -46,11 +46,27 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOZ-Fw-2Lh">
-                                <rect key="frame" x="16" y="234" width="95" height="30"/>
+                                <rect key="frame" x="16" y="179" width="95" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Buy a number"/>
                                 <connections>
                                     <action selector="buyNumberButtonAciton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fp6-o6-Nbd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prK-aP-uX4">
+                                <rect key="frame" x="16" y="217" width="153" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="MessageList Incoming"/>
+                                <connections>
+                                    <action selector="messageListIncomingButtonAciton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p4V-ji-lN6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGT-et-4tI">
+                                <rect key="frame" x="16" y="255" width="154" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="MessageList Outgoing"/>
+                                <connections>
+                                    <action selector="messageListOutgoingButtonAciton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E5V-vc-1Am"/>
                                 </connections>
                             </button>
                         </subviews>
